@@ -1846,10 +1846,6 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 3px;
   }
-  .border-b-\[1px\] {
-    border-bottom-style: var(--tw-border-style);
-    border-bottom-width: 1px;
-  }
   .border-b-\[2px\] {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 2px;
@@ -1858,13 +1854,17 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 3px;
   }
-  .border-b-\[5px\] {
-    border-bottom-style: var(--tw-border-style);
-    border-bottom-width: 5px;
-  }
   .border-b-\[10px\] {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 10px;
+  }
+  .border-b-\[1px\] {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 1px;
+  }
+  .border-b-\[5px\] {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 5px;
   }
   .border-b-\[40px\] {
     border-bottom-style: var(--tw-border-style);
@@ -1997,6 +1997,9 @@
   .bg-\[url\(\'\.\/\'\)\] {
     background-image: url('./');
   }
+  .bg-\[url\(\'\.\/3\.jpeg\'\)\] {
+    background-image: url('./3.jpeg');
+  }
   .bg-\[url\(\'\.\/img\'\)\] {
     background-image: url('./img');
   }
@@ -2012,6 +2015,12 @@
   .bg-\[url\(\'\.\/imgs\/1\.jpg\'\)\] {
     background-image: url('./imgs/1.jpg');
   }
+  .bg-\[url\(\'\.3\.jpeg\'\)\] {
+    background-image: url('.3.jpeg');
+  }
+  .bg-\[url\(\'\/3\.jpeg\'\)\] {
+    background-image: url('/3.jpeg');
+  }
   .bg-\[url\(\'\/imgs\/1\.jpg\'\)\] {
     background-image: url('/imgs/1.jpg');
   }
@@ -2026,6 +2035,78 @@
   }
   .bg-\[url\(\'\/path-to-image\.jpg\'\)\] {
     background-image: url('/path-to-image.jpg');
+  }
+  .bg-\[url\(\'\/sr\'\)\] {
+    background-image: url('/sr');
+  }
+  .bg-\[url\(\'\/src\/\'\)\] {
+    background-image: url('/src/');
+  }
+  .bg-\[url\(\'\/src\/img\'\)\] {
+    background-image: url('/src/img');
+  }
+  .bg-\[url\(\'\/src\/imgs\'\)\] {
+    background-image: url('/src/imgs');
+  }
+  .bg-\[url\(\'\/src\/imgs\/\'\)\] {
+    background-image: url('/src/imgs/');
+  }
+  .bg-\[url\(\'\/src\/imgs\/3\'\)\] {
+    background-image: url('/src/imgs/3');
+  }
+  .bg-\[url\(\'\/src\/imgs\/3\.\'\)\] {
+    background-image: url('/src/imgs/3.');
+  }
+  .bg-\[url\(\'\/src\/imgs\/3\.j\'\)\] {
+    background-image: url('/src/imgs/3.j');
+  }
+  .bg-\[url\(\'\/src\/imgs\/3\.jpeg\'\)\] {
+    background-image: url('/src/imgs/3.jpeg');
+  }
+  .bg-\[url\(\'3\.jpeg\'\)\] {
+    background-image: url('3.jpeg');
+  }
+  .bg-\[url\(\'c\/imgs\/3\.jpeg\'\)\] {
+    background-image: url('c/imgs/3.jpeg');
+  }
+  .bg-\[url\(\'sr\'\)\] {
+    background-image: url('sr');
+  }
+  .bg-\[url\(\'sr3\.jpeg\'\)\] {
+    background-image: url('sr3.jpeg');
+  }
+  .bg-\[url\(\'src\'\)\] {
+    background-image: url('src');
+  }
+  .bg-\[url\(\'src\.jpeg\'\)\] {
+    background-image: url('src.jpeg');
+  }
+  .bg-\[url\(\'src\/\'\)\] {
+    background-image: url('src/');
+  }
+  .bg-\[url\(\'src\/\.jpeg\'\)\] {
+    background-image: url('src/.jpeg');
+  }
+  .bg-\[url\(\'src\/3\.jpeg\'\)\] {
+    background-image: url('src/3.jpeg');
+  }
+  .bg-\[url\(\'src\/i\'\)\] {
+    background-image: url('src/i');
+  }
+  .bg-\[url\(\'src\/imgs\'\)\] {
+    background-image: url('src/imgs');
+  }
+  .bg-\[url\(\'src\/imgs\/\'\)\] {
+    background-image: url('src/imgs/');
+  }
+  .bg-\[url\(\'src\/imgs\/3\'\)\] {
+    background-image: url('src/imgs/3');
+  }
+  .bg-\[url\(\'src\/imgs\/3\.\'\)\] {
+    background-image: url('src/imgs/3.');
+  }
+  .bg-\[url\(\'src\/imgs\/3\.jpeg\'\)\] {
+    background-image: url('src/imgs/3.jpeg');
   }
   .bg-none {
     background-image: none;
