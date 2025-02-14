@@ -908,6 +908,9 @@
   .-ml-30 {
     margin-left: calc(var(--spacing) * -30);
   }
+  .ml-0 {
+    margin-left: calc(var(--spacing) * 0);
+  }
   .ml-1 {
     margin-left: calc(var(--spacing) * 1);
   }
@@ -935,14 +938,8 @@
   .ml-9 {
     margin-left: calc(var(--spacing) * 9);
   }
-  .ml-15 {
-    margin-left: calc(var(--spacing) * 15);
-  }
   .ml-20 {
     margin-left: calc(var(--spacing) * 20);
-  }
-  .ml-29 {
-    margin-left: calc(var(--spacing) * 29);
   }
   .ml-30 {
     margin-left: calc(var(--spacing) * 30);
@@ -950,14 +947,26 @@
   .ml-35 {
     margin-left: calc(var(--spacing) * 35);
   }
+  .ml-40 {
+    margin-left: calc(var(--spacing) * 40);
+  }
   .ml-45 {
     margin-left: calc(var(--spacing) * 45);
   }
-  .ml-50 {
-    margin-left: calc(var(--spacing) * 50);
-  }
   .ml-60 {
     margin-left: calc(var(--spacing) * 60);
+  }
+  .ml-100 {
+    margin-left: calc(var(--spacing) * 100);
+  }
+  .ml-15 {
+    margin-left: calc(var(--spacing) * 15);
+  }
+  .ml-29 {
+    margin-left: calc(var(--spacing) * 29);
+  }
+  .ml-50 {
+    margin-left: calc(var(--spacing) * 50);
   }
   .ml-65 {
     margin-left: calc(var(--spacing) * 65);
@@ -967,6 +976,18 @@
   }
   .ml-75 {
     margin-left: calc(var(--spacing) * 75);
+  }
+  .ml-80 {
+    margin-left: calc(var(--spacing) * 80);
+  }
+  .ml-90 {
+    margin-left: calc(var(--spacing) * 90);
+  }
+  .ml-300 {
+    margin-left: calc(var(--spacing) * 300);
+  }
+  .ml-3300 {
+    margin-left: calc(var(--spacing) * 3300);
   }
   .ml-auto {
     margin-left: auto;
@@ -2301,6 +2322,21 @@
   .text-blue-900 {
     color: var(--color-blue-900);
   }
+  .text-blue-950 {
+    color: var(--color-blue-950);
+  }
+  .text-red-200 {
+    color: var(--color-red-200);
+  }
+  .text-red-800 {
+    color: var(--color-red-800);
+  }
+  .text-red-900 {
+    color: var(--color-red-900);
+  }
+  .text-red-950 {
+    color: var(--color-red-950);
+  }
   .text-white {
     color: var(--color-white);
   }
@@ -2776,6 +2812,13 @@
     &:hover {
       @media (hover: hover) {
         color: var(--color-white);
+      }
+    }
+  }
+  .hover\:underline {
+    &:hover {
+      @media (hover: hover) {
+        text-decoration-line: underline;
       }
     }
   }
