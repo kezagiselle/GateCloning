@@ -776,6 +776,9 @@
   .mr-20 {
     margin-right: calc(var(--spacing) * 20);
   }
+  .mr-29 {
+    margin-right: calc(var(--spacing) * 29);
+  }
   .mr-30 {
     margin-right: calc(var(--spacing) * 30);
   }
@@ -793,9 +796,6 @@
   }
   .mr-200 {
     margin-right: calc(var(--spacing) * 200);
-  }
-  .mr-29 {
-    margin-right: calc(var(--spacing) * 29);
   }
   .mr-250 {
     margin-right: calc(var(--spacing) * 250);
@@ -848,20 +848,11 @@
   .ml-20 {
     margin-left: calc(var(--spacing) * 20);
   }
-  .ml-200 {
-    margin-left: calc(var(--spacing) * 200);
-  }
-  .ml-25 {
-    margin-left: calc(var(--spacing) * 25);
-  }
   .ml-30 {
     margin-left: calc(var(--spacing) * 30);
   }
   .ml-40 {
     margin-left: calc(var(--spacing) * 40);
-  }
-  .ml-50 {
-    margin-left: calc(var(--spacing) * 50);
   }
   .ml-60 {
     margin-left: calc(var(--spacing) * 60);
@@ -871,6 +862,15 @@
   }
   .ml-75 {
     margin-left: calc(var(--spacing) * 75);
+  }
+  .ml-200 {
+    margin-left: calc(var(--spacing) * 200);
+  }
+  .ml-25 {
+    margin-left: calc(var(--spacing) * 25);
+  }
+  .ml-50 {
+    margin-left: calc(var(--spacing) * 50);
   }
   .box-border {
     box-sizing: border-box;
@@ -2604,6 +2604,13 @@
   }
   .transform-view {
     transform-box: view-box;
+  }
+  .group-hover\:underline {
+    &:is(:where(.group):hover *) {
+      @media (hover: hover) {
+        text-decoration-line: underline;
+      }
+    }
   }
   .hover\:bg-white {
     &:hover {
