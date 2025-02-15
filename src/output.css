@@ -842,8 +842,17 @@
   .ml-10 {
     margin-left: calc(var(--spacing) * 10);
   }
+  .ml-15 {
+    margin-left: calc(var(--spacing) * 15);
+  }
   .ml-20 {
     margin-left: calc(var(--spacing) * 20);
+  }
+  .ml-200 {
+    margin-left: calc(var(--spacing) * 200);
+  }
+  .ml-25 {
+    margin-left: calc(var(--spacing) * 25);
   }
   .ml-30 {
     margin-left: calc(var(--spacing) * 30);
@@ -862,9 +871,6 @@
   }
   .ml-75 {
     margin-left: calc(var(--spacing) * 75);
-  }
-  .ml-200 {
-    margin-left: calc(var(--spacing) * 200);
   }
   .box-border {
     box-sizing: border-box;
