@@ -737,6 +737,9 @@
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
   }
+  .mt-15 {
+    margin-top: calc(var(--spacing) * 15);
+  }
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
@@ -773,14 +776,8 @@
   .mr-20 {
     margin-right: calc(var(--spacing) * 20);
   }
-  .mr-29 {
-    margin-right: calc(var(--spacing) * 29);
-  }
   .mr-30 {
     margin-right: calc(var(--spacing) * 30);
-  }
-  .mr-300 {
-    margin-right: calc(var(--spacing) * 300);
   }
   .mr-35 {
     margin-right: calc(var(--spacing) * 35);
@@ -797,8 +794,14 @@
   .mr-200 {
     margin-right: calc(var(--spacing) * 200);
   }
+  .mr-29 {
+    margin-right: calc(var(--spacing) * 29);
+  }
   .mr-250 {
     margin-right: calc(var(--spacing) * 250);
+  }
+  .mr-300 {
+    margin-right: calc(var(--spacing) * 300);
   }
   .mr-330 {
     margin-right: calc(var(--spacing) * 330);
@@ -826,6 +829,9 @@
   }
   .ml-2 {
     margin-left: calc(var(--spacing) * 2);
+  }
+  .ml-3 {
+    margin-left: calc(var(--spacing) * 3);
   }
   .ml-5 {
     margin-left: calc(var(--spacing) * 5);
@@ -1993,12 +1999,19 @@
   .font-\[roboto\] {
     font-family: roboto;
   }
+  .font-\[sans-serif\] {
+    font-family: sans-serif;
+  }
   .font-\[sans\] {
     font-family: sans;
   }
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
+  }
+  .text-3xl {
+    font-size: var(--text-3xl);
+    line-height: var(--tw-leading, var(--text-3xl--line-height));
   }
   .text-4xl {
     font-size: var(--text-4xl);
